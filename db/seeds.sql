@@ -1,38 +1,24 @@
-USE employees_db;
+INSERT INTO department (name)
+VALUES ("Cast");
+INSERT INTO department (name)
+VALUES ("Production");
+INSERT INTO department (name)
+VALUES ("Designer");
 
-INSERT INTO department (name)
-VALUES ("Sales");
-INSERT INTO department (name)
-VALUES ("Engineering");
-INSERT INTO department (name)
-VALUES ("Finance");
-INSERT INTO department (name)
-VALUES ("Legal");
 
 INSERT INTO role (title, salary, department_id)
-VALUES ("Salesperson", 80000, 1);
-INSERT INTO role (title, salary, department_id)
-VALUES ("Lead Engineer", 150000, 2);
-INSERT INTO role (title, salary, department_id)
-VALUES ("Software Engineer", 120000, 2);
-INSERT INTO role (title, salary, department_id)
-VALUES ("Accountant", 125000, 3);
-INSERT INTO role (title, salary, department_id)
-VALUES ("Legal Team Lead", 250000, 4);
+VALUES ("Actor", 100000, 1);
+VALUES ("Director", 150000, 2);
+VALUES ("Makeup Artist", 60000, 3);
+
 
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES ("John", "Doe", 1, 3);
-INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES ("Mike", "Chan", 2, 1);
-INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES ("Shay", "Mitchell", 3, null);
-INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES ("Charles", "Melton", 4, 3);
-INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES ("Madelaine", "Petsch", 5, null);
-INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES ("Emma ", "Stone", 2, null);
-INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES ("Lucy", "Lui", 4, 7);
+VALUES ("Lili", "Reinhart", 1, 2);
+VALUES ("Cole", "Sprouse", 1, 2);
+VALUES ("Camila", "Mendes", 1, 2);
+VALUES ("Charles", "Melton", 1, 2);
+VALUES ("Madelaine", "Petsch", 1, 2);
+VALUES ("Steven ", "Adelson", 2, null);
+VALUES ("Erin", "Mackenzie", 3, 2);
 
 
