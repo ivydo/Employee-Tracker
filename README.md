@@ -23,3 +23,6 @@ As a business owner I want to be able to view and manage the departments, roles,
 ## Usage
 npm install
 node server.js
+
+## Video Demonstration
+https://watch.screencastify.com/v/cu5FCkpcCDLKz4IuA3BT 
